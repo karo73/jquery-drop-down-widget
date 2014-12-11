@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New drop down widget</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/drop-down.css" />
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/select-widget-min.js"></script>
+	<script>
+		
+		$(document).ready(function(){
+			
+			$(".ui-select").selectWidget({
+				change       : function (changes) {
+					return changes;
+				},
+				effect       : "slide",
+				keyControl   : true,
+				speed        : 200,
+				scrollHeight : 250
+			});
+			
+		});		
+		
+	</script>
+</head>
+
+<body>
+	<form action="" method="get">
+		<table>
+			<tr>
+				<td>
+					<h2>Select examples</h2>
+					<select name="drop1" class="ui-select">
+						<option value="">structure empty</option>
+						<option value="1">structure 1</option>
+						<option value="2">structure 2</option>
+						<option value="3">structure 3</option>
+						<option selected value="4">structure 4</option>
+						<option value="5">structure 5</option>
+						<option value="6">structure 6</option>
+						<option value="7">structure 7</option>
+						<option value="8">structure 8</option>
+						<option value="9">structure 9</option>
+						<option value="10">structure 10</option>
+						<option value="11">structure 11</option>
+					</select>
+				</td>
+				<td>
+					<h2>Select examples</h2>
+					<select name="drop2" class="ui-select">
+						<option value="">structure empty</option>
+						<option value="1">structure 1</option>
+						<option value="2">structure 2</option>
+						<option value="3">structure 3</option>
+					</select>
+				</td>	
+				<td>
+					<h2>Select disable example</h2>
+					<select name="drop3" class="ui-select" disabled="disabled">
+						<option value="0">structure empty</option>
+						<option value="1">structure 1</option>
+						<option value="2">structure 2</option>
+						<option value="3">structure 3</option>
+					</select>
+				</td>
+				<td>
+					<input type="reset" value="Reset" />
+					<input type="submit" value="Send" />
+				</td>
+			</tr>
+		</table>
+	</form>
+	<form action="" method="get">
+		<table>
+			<tr>
+				<td>
+					<h2>Select examples</h2>
+					<select name="drop1" class="ui-select">
+						<option value="">structure empty</option>
+						<option value="1">structure 1</option>
+						<option value="2">structure 2</option>
+						<option value="3">structure 3</option>
+						<option selected value="4">structure 4</option>
+						<option value="5">structure 5</option>
+						<option value="6">structure 6</option>
+						<option value="7">structure 7</option>
+						<option value="8">structure 8</option>
+						<option value="9">structure 9</option>
+						<option value="10">structure 10</option>
+						<option value="11">structure 11</option>
+					</select>
+				</td>
+				<td>
+					<h2>Select examples</h2>
+					<select name="drop2" class="ui-select">
+						<option value="">structure empty</option>
+						<option value="1">structure 1</option>
+						<option value="2">structure 2</option>
+						<option value="3">structure 3</option>
+					</select>
+				</td>	
+				<td>
+					<h2>Select disable example</h2>
+					<select name="drop3" class="ui-select" disabled="disabled">
+						<option value="0">structure empty</option>
+						<option value="1">structure 1</option>
+						<option value="2">structure 2</option>
+						<option value="3">structure 3</option>
+					</select>
+				</td>
+				<td>
+					<input type="reset" value="Reset" />
+					<input type="submit" value="Send" />
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
