@@ -72,6 +72,8 @@ div.select-set {
 	overflow: hidden;
 	position: relative;
 	padding: 0 35px 0 15px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 	width: 150px;
 	z-index: 5;
 }
