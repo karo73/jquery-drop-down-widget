@@ -25,7 +25,7 @@ That's from "&lt;select&gt;" to drop-down with following settings
     <td>box minimum height after that appear scroll</td>
   </tr>
   <tr>
-    <td colspan="2"><b>And you can give attribute disabled="disabled", name="some_name". Use again after AJAX request.</b></td>
+    <td colspan="2">And you can give attribute <b>disabled="disabled"</b>, <b>name="some_name"</b>. Use again after <b>AJAX</b> request.</td>
   </tr>
 </table>
 
