@@ -25,7 +25,8 @@ $.widget("ui.selectWidget", {
 	
 	_selectFunctional: function(){
 
-		if (this.element.is(":hidden")) { return false; }
+		if (this.element.hasClass("installed")) { return false; }
+		this.element.addClass("installed");
 		
 		var select        = this.element,
 			mainBlock     = $("<div>").addClass("select-main"),
