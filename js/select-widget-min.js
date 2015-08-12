@@ -1,6 +1,7 @@
 /*
 *
 * Author Karo Hakobyan
+* Copyright © 2015 http://www.jsliders.com
 *
 */
 
